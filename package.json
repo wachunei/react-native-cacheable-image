@@ -1,8 +1,8 @@
 {
   "name": "react-native-cacheable-image",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "An Image component for React Native that will cache itself to disk",
-  "main": "image.js",
+  "main": "CacheableImage.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,8 +21,17 @@
   "homepage": "https://github.com/jayesbe/react-native-cacheable-image#readme",
   "dependencies": {
     "crypto-js": "^3.1.6",
+    "react": "^15.4.0",
+    "react-native": "^0.40.0",
     "react-native-fs": "^2.0.1-rc.2",
-    "url-parse": "^1.1.1",
-    "react-native-responsive-image": "^1.2.0"
+    "react-native-responsive-image": "^1.2.0",
+    "url-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0"
   }
 }
